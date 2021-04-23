@@ -16,9 +16,12 @@
     font-family: $fontRobotoSlab;
     font-weight: bold;
     font-size: 24px;
+    text-transform: capitalize;
     padding-top: 1px;
   }
   &--paragraph {
+    font-size: 18px;
     color: $colorGrey;
+    padding-top: 15px;
   }
 }
