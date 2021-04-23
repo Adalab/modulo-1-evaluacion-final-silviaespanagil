@@ -1,20 +1,24 @@
 .header {
   &--hero {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     background-image: url("../images/cover.jpg");
     background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
+    text-align: center;
+    color: $colorWhite;
 
     &-menu {
       width: 44px;
       height: 44px;
       background-color: $colorBrightblue;
-      align-self: flex-start;
-      position: relative;
+      position: absolute;
+      top: 0;
+      left: 0;
 
       &-burguer {
         width: 16px;
@@ -24,26 +28,25 @@
         transform: translate(-50%, -50%);
       }
     }
-    &-text {
-      text-align: center;
-      padding: 284px 0 143px 0;
-      color: $colorWhite;
 
-      &-title {
-        font-family: $fontRobotoSlab;
-        font-size: 42px;
-        font-weight: bold;
-        text-transform: uppercase;
-      }
-
-      &-slogan {
-        font-family: $fontRoboto;
-        font-weight: 400;
-        font-size: 16px;
-        padding-top: 10px;
-        line-height: 21px;
+    &-title {
+      font-family: $fontRobotoSlab;
+      font-size: 42px;
+      font-weight: bold;
+      text-transform: uppercase;
+      padding-bottom: 10px;
+      @media all and (min-width: 768px) {
       }
     }
+
+    &-slogan {
+      font-family: $fontRoboto;
+      font-weight: 400;
+      font-size: 16px;
+      padding-bottom: 45px;
+      line-height: 21px;
+    }
+
     &-scroll {
       width: 45px;
       line-height: 45px;
