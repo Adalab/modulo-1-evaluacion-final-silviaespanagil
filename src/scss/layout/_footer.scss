@@ -9,10 +9,12 @@
   &--up {
     width: 45px;
     height: 45px;
-    border-radius: 100%;
+    line-height: 24px;
+    border-radius: 50%;
     background-color: $colorWhite;
     display: flex;
     justify-content: center;
+    align-items: center;
     transform: translate(0, -50%);
 
     &-arrow {
