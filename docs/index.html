@@ -10,14 +10,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" href="./assets/images/pixelsil.png" />
     <title>Anonymous Proxy</title>
   </head>
   <body>
     <div class="page">
-      <header class="header">
+      <header class="header" id="go-top">
         <div class="header--hero">
           <div class="header--hero-menu">
-            <a href="https://adalab.es/">
+            <a href="https://adalab.es/" Alt="Adalab web">
               <img
                 class="header--hero-menu-burguer"
                 src="./assets/images/ico-menu.svg"
@@ -36,11 +37,13 @@
             </h2>
           </div>
           <div class="header--hero-scroll">
-            <img
-              class="header--hero-scroll-down"
-              src=".\assets\images\ico-scroll-down.svg"
-              alt="arrow scroll"
-            />
+            <a href="#go-reasons" alt="Go to reasons">
+              <img
+                class="header--hero-scroll-down"
+                src=".\assets\images\ico-scroll-down.svg"
+                alt="arrow scroll"
+              />
+            </a>
           </div>
         </div>
       </header>
@@ -53,10 +56,10 @@
             Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
             luctus ex diam nec lectus. Vivamus semper sodales rutrum.
           </p>
-          <a class="article--button" href="#">Go</a>
+          <a class="article--button" href="">Go</a>
         </article>
 
-        <section class="reasons">
+        <section class="reasons" id="go-reasons">
           <div class="reasons--wrapper">
             <div class="reasons--tittle">
               <h2>3 Reasons to purchase</h2>
@@ -85,13 +88,47 @@
                 </p>
               </article>
             </div>
-            <div><a class="reasons--button" href="#">More reasons</a></div>
+            <div><a class="reasons--button" href="">More reasons</a></div>
           </div>
         </section>
 
       </main>
 
-      
+      <footer class="footer">
+        <div class="footer--content">
+          <a class="footer--up" href="#go-top" alt="back to menu">
+            <div class="footer--up-arrow">        
+                <img src=".\assets\images\ico-arrow.svg" alt="go up arrow" />
+            </div>
+          </a>
+          </div>
+          <div class="footer--content">
+            <nav class="footer--content-menu">
+              <ul>
+                <li><a href="https://adalab.es/" Alt="Articles">Articles</a></li>
+                <li><a href="https://adalab.es/" Alt="Books">Books</a></li>
+                <li><a href="https://adalab.es/" Alt="Events">Events</a></li>
+                <li><a href="https://adalab.es/" Alt="Reasons">Reasons</a></li>
+                <li><a href="https://adalab.es/" Alt="Tips">Tips</a></li>
+              </ul>
+            </nav>
+            <nav class="footer--content-social">
+              <ul>
+                <li><a href="https://adalab.es/" Alt="Twitter">Twitter</a></li>
+                <li><a href="https://adalab.es/" Alt="Instagram">Instagram</a></li>
+                <li><a href="https://adalab.es/" Alt= "Mastodon Social">Mastodon.social</a></li>
+              </ul>
+            </nav>
+            <small class="footer--content-copy"
+              ><div>©2021</div>
+              <div>
+                we <span class="footer--content-copy__heart">❤︎</span> components
+              </div></small
+            >
+          </div>
+        </div>
+      </footer>
+
     </div>
     <script src="./assets/js/main.js"></script>
   </body>
