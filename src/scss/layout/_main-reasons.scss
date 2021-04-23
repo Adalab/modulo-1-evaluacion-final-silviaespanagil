@@ -1,0 +1,22 @@
+.reasons {
+  background-color: $colorBrightblue;
+  padding: 30px 15px 60px 15px;
+  &--wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat (5, 1fr);
+    border: 2px solid red;
+  }
+  &--tittle {
+    grid-row: 1fr;
+    border: 2px solid red;
+  }
+  &--item {
+    grid-row: 1fr;
+    border: 2px solid red;
+  }
+  &--button {
+    grid-row: 1fr;
+    border: 2px solid red;
+  }
+}
