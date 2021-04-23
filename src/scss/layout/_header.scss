@@ -27,7 +27,7 @@
     }
     &-text {
       text-align: center;
-      padding: 284px 15px 143px 15px;
+      padding: 284px 0 143px 0;
       color: $colorWhite;
 
       &-title {
@@ -36,11 +36,13 @@
         font-weight: bold;
         text-transform: uppercase;
       }
+
       &-slogan {
         font-family: $fontRoboto;
         font-weight: 400;
         font-size: 16px;
         padding-top: 10px;
+        line-height: 21px;
       }
     }
     &-scroll {
