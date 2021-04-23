@@ -1,22 +1,36 @@
 .reasons {
-  background-color: $colorBrightblue;
+  background-color: $colorIceblue;
   padding: 30px 15px 60px 15px;
+  margin-top: 45px;
   &--wrapper {
     display: grid;
     grid-template-columns: 1fr;
+    grid-gap: 45px;
     grid-template-rows: repeat (5, 1fr);
-    border: 2px solid red;
+    justify-items: center;
+    line-height: 30px;
   }
   &--tittle {
     grid-row: 1fr;
-    border: 2px solid red;
+    font-family: $fontRobotoSlab;
+    font-style: bold;
+    font-size: 24px;
+    text-transform: capitalize;
   }
   &--item {
     grid-row: 1fr;
-    border: 2px solid red;
+    font-size: 18px;
+    text-align: center;
+    &-tittle {
+      font-family: $fontRobotoSlab;
+      font-style: bold;
+    }
+    &--description {
+      font-family: $fontRoboto;
+      font-weight: 400;
+    }
   }
   &--button {
     grid-row: 1fr;
-    border: 2px solid red;
   }
 }
