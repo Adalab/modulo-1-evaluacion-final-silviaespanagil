@@ -35,11 +35,18 @@
       font-weight: bold;
       line-height: 55px;
       text-transform: uppercase;
+      text-shadow: 0 2px 3px $colorshadow;
       padding-bottom: 10px;
       @media all and (min-width: 768px) {
         font-size: 80px;
         line-height: 106px;
         padding-bottom: 20px;
+      }
+      @media all and (min-width: 1280px) {
+        font-size: 100px;
+        line-height: 132px;
+        padding-bottom: 0;
+        text-shadow: 0 2px 5px $colorshadow;
       }
     }
 
@@ -68,6 +75,9 @@
       justify-content: center;
       @media all and (min-width: 768px) {
         margin-bottom: 45px;
+      }
+      @media all and (min-width: 1280px) {
+        margin-bottom: 13px;
       }
 
       &-down {
