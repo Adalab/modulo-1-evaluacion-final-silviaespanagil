@@ -1,22 +1,4 @@
 .header {
-  &--menu {
-    width: 44px;
-    height: 44px;
-    background-color: $colorBrightblue;
-    align-self: flex-start;
-    position: relative;
-
-    &-burguer {
-      width: 16px;
-      height: 14px;
-      position: absolute;
-
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
-  }
-
   &--hero {
     height: 100vh;
     width: 100vw;
@@ -27,6 +9,22 @@
     flex-direction: column;
     align-items: center;
 
+    &-menu {
+      width: 44px;
+      height: 44px;
+      background-color: $colorBrightblue;
+      align-self: flex-start;
+      position: relative;
+
+      &-burguer {
+        width: 16px;
+        height: 14px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
     &-text {
       text-align: center;
       padding: 284px 15px 143px 15px;
@@ -47,9 +45,9 @@
     &-scroll {
       width: 45px;
       height: 45px;
-      padding-bottom: 53px;
+      margin-bottom: 53px;
       background-color: $colorWhite;
-      /*border-radius: 100%;*/
+      border-radius: 100%;
       display: flex;
       flex-direction: column;
       align-items: center;
