@@ -23,13 +23,11 @@
         "button button button";
     }
   }
-  &--tittle {
-    display: block;
-    grid-row: 1fr;
-    text-align: center;
+  &--title {
     font-family: $fontRobotoSlab;
     font-style: bold;
     font-size: 24px;
+    text-align: center;
     text-transform: capitalize;
     @media all and (min-width: 768px) {
       grid-area: title;
@@ -38,8 +36,10 @@
   &--item {
     font-size: 18px;
     line-height: 30px;
-
-    &-tittle {
+    @media all and (min-width: 768px) {
+      font-size: 20px;
+    }
+    &-title {
       font-family: $fontRobotoSlab;
       font-style: bold;
       text-align: center;
