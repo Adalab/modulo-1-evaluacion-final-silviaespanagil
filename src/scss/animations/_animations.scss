@@ -1,8 +1,11 @@
 .header--hero-scroll:hover {
-    animation: scrolldown 0.5s ease 2;
+    animation: scrolls 0.5s ease 2;
+}
+.footer--up:hover {
+    animation: scrolls 0.5s ease 2;
 }
 
-@keyframes scrolldown {
+@keyframes scrolls {
     from {
         width: 45px;
         height: 45px;
@@ -31,14 +34,26 @@
     }
 }
 
-.reasons--button {
+.reasons--button:hover {
     animation: reasons-button 1s ease 1;
 }
 @keyframes reasons-button {
     from {
-        border: 2px dotted $colorOrange;
+        border-radius: 22.5px;
     }
     to {
+        border-radius: 0;
         border: 2px dotted $colorWhite;
+    }
+}
+
+.footer--content2-copy__heart {
+    animation: heart 0.5s infinite alternate-reverse;
+}
+@keyframes heart {
+    from {
+    }
+    to {
+        font-size: 10px;
     }
 }
