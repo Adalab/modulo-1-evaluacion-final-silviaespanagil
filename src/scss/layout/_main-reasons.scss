@@ -5,6 +5,9 @@
   @media all and (min-width: 768px) {
     padding: 30px 40px 60px 35.7px;
   }
+  @media all and (min-width: 1280px) {
+    padding: 60px 85px 60px 81.2px;
+  }
   &--wrapper {
     display: grid;
     grid-template-columns: 1fr;
@@ -23,6 +26,7 @@
         "button button button";
     }
     @media all and (min-width: 1280px) {
+      grid-gap: 45px 26.2px;
     }
   }
   &--title {
@@ -34,6 +38,11 @@
     text-transform: capitalize;
     @media all and (min-width: 768px) {
       grid-area: title;
+      font-size: 26px;
+    }
+    @media all and (min-width: 1280px) {
+      font-size: 32px;
+      line-height: 45px;
     }
   }
   &--item {
@@ -87,7 +96,11 @@
     text-align: center;
     @media all and (min-width: 768px) {
       grid-area: button;
+      width: 210px;
       margin-top: 15px;
+    }
+    @media all and (min-width: 1280px) {
+      width: 255px;
     }
   }
 }
