@@ -18,4 +18,4 @@ After a whole month of HTML and CSS code, this is my final presentation of a web
 
 ## Tech 💻
 Starring:
-[Adalab Web Starter Kit](https://github.com/Adalab/adalab-web-starter-kit)  - An amazing template that allowed me to use a local host, SASS, HTML Template Engines and gulp. 
+[Adalab Web Starter Kit](https://github.com/Adalab/adalab-web-starter-kit)  - An amazing template that allowed me to use a local host, SASS, HTML Template Engines and gulp. For more information you may visit [the Kit repository](https://github.com/Adalab/adalab-web-starter-kit)
