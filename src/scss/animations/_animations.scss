@@ -15,6 +15,30 @@
     }
 }
 
-.article--button
+.article--button:hover {
+    animation: go-button 1s ease 1;
+}
 
-@keyframes gobutton
+@keyframes go-button {
+    from {
+        border: 2px solid $colorOrange;
+        color: $colorOrange;
+    }
+    to {
+        border: 2px solid $colorWhite;
+        background-color: $colorOrange;
+        color: $colorWhite;
+    }
+}
+
+.reasons--button {
+    animation: reasons-button 1s ease 1;
+}
+@keyframes reasons-button {
+    from {
+        border: 2px dotted $colorOrange;
+    }
+    to {
+        border: 2px dotted $colorWhite;
+    }
+}
