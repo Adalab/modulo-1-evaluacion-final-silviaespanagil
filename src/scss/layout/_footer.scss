@@ -6,10 +6,15 @@
   line-height: 30px;
   text-transform: uppercase;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @media all and (min-width: 768px) {
+  }
   &--up {
     width: 45px;
     height: 45px;
-    line-height: 24px;
     border-radius: 50%;
     background-color: $colorWhite;
     display: flex;
@@ -22,10 +27,6 @@
     }
   }
   &--content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     &-menu {
       padding-top: 37px;
     }
