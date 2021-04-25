@@ -45,7 +45,7 @@ This is how my partials look like
 
 Remember that this repository was done using the [Adalab Web Starter Kit](https://github.com/Adalab/adalab-web-starter-kit) so I highly recommend to visit the link provided before running the proyect. 
 
-<sub>[Node.js](https://nodejs.org/)is required<sub/>
+<sub>[Node.js](https://nodejs.org/) is required <sub/>
 
 After you clone the repository you must:
 
@@ -61,7 +61,7 @@ npm start
 ```sh
 npm run push-docs
 ```
-PD: You will have to set your GitHub Page as master branch /docs folder.
+<sub>PD: You will have to set your GitHub Page as master branch /docs folder.<sub/>
 
 ## License
 
