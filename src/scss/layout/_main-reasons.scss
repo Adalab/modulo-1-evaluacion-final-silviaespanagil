@@ -59,7 +59,6 @@
     }
 
     &-description {
-      font-family: $fontRoboto;
       font-weight: 400;
       text-align: center;
       @media all and (min-width: 768px) {
@@ -90,7 +89,6 @@
     border-radius: 22.5px;
     width: 184px;
     line-height: 45px;
-    font-family: $fontRoboto;
     font-size: 20px;
     color: $colorWhite;
     text-align: center;
