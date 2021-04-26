@@ -63,9 +63,12 @@ npm start
 npm run push-docs
 ```
 <sub>PD: You will have to set your GitHub Page as master branch /docs folder.<sub/>
-<sub>For Gulp installing you may run ```sh
+<sub>For Gulp installing you may run
+ 
+ ```sh
 npm -g install gulp-cli
-```<sub/>
+```
+<sub/>
 
 ## License
 
