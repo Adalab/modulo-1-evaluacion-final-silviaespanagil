@@ -49,11 +49,11 @@ Remember that this repository was done using the [Adalab Web Starter Kit](https:
 
 After you clone the repository you must:
 
-1) Install dependencies
+1) Install dependencies.  You will only have to do this once.
 ```sh
 npm install
 ```
-2) Start the proyect. This must be done everytime you code and will open a local host that will  update in real time 
+2) Start the proyect. This must be done everytime you code and will open a local host that will  update in real time
 ```sh
 npm start
 ```
