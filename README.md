@@ -23,7 +23,8 @@ Starring:
 ### Built with 🔨
 - Visual Code Studio: as code editor
 - HTML
-- CSS
+- SASS
+- GULP
 
 ## Development ⌨️
 
@@ -45,7 +46,7 @@ This is how my partials look like
 
 Remember that this repository was done using the [Adalab Web Starter Kit](https://github.com/Adalab/adalab-web-starter-kit) so I highly recommend to visit the link provided before running the proyect. 
 
-<sub>[Node.js](https://nodejs.org/) is required <sub/>
+<sub>[Node.js](https://nodejs.org/) and Gulp are required <sub/>
 
 After you clone the repository you must:
 
@@ -62,6 +63,9 @@ npm start
 npm run push-docs
 ```
 <sub>PD: You will have to set your GitHub Page as master branch /docs folder.<sub/>
+<sub>For Gulp installing you may run ```sh
+npm -g install gulp-cli
+```<sub/>
 
 ## License
 
