@@ -5,13 +5,7 @@
   align-items: center;
   justify-content: center;
   &--up {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: $colorWhite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include scroll-button;
     transform: translate(0%, -50%);
 
     &-arrow {
