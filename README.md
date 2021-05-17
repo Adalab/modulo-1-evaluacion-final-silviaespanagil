@@ -1,4 +1,4 @@
-# Javascript: Final evaluation for Adalab
+# HTML and CSS: Adalab's final evaluation
 ## _Website Layout_
 ¡Hola!
 
