@@ -1,8 +1,8 @@
-# HTML and CSS: Adalab's final evaluation
+# HTML and CSS: Design to code
 ## _Website Layout_
-¡Hola!
+¡Hola mundo!
 
-After a whole month of HTML and CSS code, this is my final presentation of a website home page layout ✨
+The layout is based on a design received via Zeplin. The website is responsive, pixel perfect and was made with flex and grid✨
 <img src="https://user-images.githubusercontent.com/81619759/124810038-1f9aea00-df61-11eb-8418-58171af66978.png" width="400"/>
 
 
